@@ -2,6 +2,7 @@ import React from "react";
 import weather from "../media/weather.png";
 import domus from "../media/domus.png";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -10,9 +11,9 @@ export default function Home() {
         <h1 className="mb-5">Kateryna Andriichuk</h1>
         <p className="mb-5">Frontend Developer, based in Ukraine</p>
         <div>
-          <a href="/contact" className="btn btn-branding" title="Contact page">
+          <Link to="/contact" className="btn btn-branding" title="Contact page">
             Contact me
-          </a>
+          </Link>
         </div>
       </div>
       <p className="text-center mt-5 mb-5 projectsWord d-none d-lg-block">
