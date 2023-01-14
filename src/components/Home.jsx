@@ -2,6 +2,7 @@ import React from "react";
 import weather from "../media/weather.png";
 import domus from "../media/domus.png";
 import Footer from "./Footer";
+i;
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <h1 className="mb-5">Kateryna Andriichuk</h1>
         <p className="mb-5">Frontend Developer, based in Ukraine</p>
         <div>
-          <a to={"./Contact"} className="btn btn-branding" title="Contact page">
+          <a to="/Contact" className="btn btn-branding" title="Contact page">
             Contact me
           </a>
         </div>

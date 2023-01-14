@@ -22,7 +22,8 @@ p {
   font-size: 25px;
   line-height: 1.5;
 }
-a {
+a,
+Link {
   color: #333333;
   text-decoration: none;
 }
