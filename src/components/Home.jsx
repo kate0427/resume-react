@@ -2,7 +2,6 @@ import React from "react";
 import weather from "../media/weather.png";
 import domus from "../media/domus.png";
 import Footer from "./Footer";
-i;
 
 export default function Home() {
   return (
