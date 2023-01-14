@@ -10,7 +10,7 @@ export default function Home() {
         <h1 className="mb-5">Kateryna Andriichuk</h1>
         <p className="mb-5">Frontend Developer, based in Ukraine</p>
         <div>
-          <a href="./contact" className="btn btn-branding" title="Contact page">
+          <a to={"./Contact"} className="btn btn-branding" title="Contact page">
             Contact me
           </a>
         </div>
