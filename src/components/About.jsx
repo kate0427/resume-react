@@ -1,6 +1,7 @@
 import React from "react";
 import myPhoto from "../media/myPhoto.jpg";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -19,13 +20,13 @@ export default function About() {
                 management and project coordination gained from the previous
                 work experience and participation in the exchange programs.
               </p>
-              <a
-                href="./projects"
+              <Link
+                to="/projects"
                 className="btn btn-branding"
                 title="My Project"
               >
                 View All Projects
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-6 text-center">

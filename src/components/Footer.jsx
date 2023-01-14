@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -10,13 +11,13 @@ export default function Footer() {
             <p className="text-muted">Let's work together</p>
           </div>
           <div className="contact-button">
-            <a
-              href="./contact"
+            <Link
+              to="/contact"
               className="btn btn-branding mt-2"
               title="Contact page"
             >
               Contact me
-            </a>
+            </Link>
           </div>
         </div>
         <div className="social-icons d-flex justify-content-center">

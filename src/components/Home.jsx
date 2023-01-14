@@ -34,13 +34,13 @@ export default function Home() {
               The Project is using Weather API in order to get the real-time
               data. Feel free to check the weather near you.
             </p>
-            <a
-              href="./projects"
+            <Link
+              to="/projects"
               className="btn btn-branding-outline mb-5"
               title="Weather Project"
             >
               Learn More
-            </a>
+            </Link>
           </div>
           <div className="row">
             <div className="col projectDescription">
@@ -49,9 +49,9 @@ export default function Home() {
                 The website is created with Wix.com. It is used to inform about
                 the mobile houses.
               </p>
-              <a href="./projects" className="btn btn-branding-outline mb-5">
+              <Link to="/projects" className="btn btn-branding-outline mb-5">
                 Learn More
-              </a>
+              </Link>
             </div>
             <div className="col d-none d-lg-block">
               <img
