@@ -56,7 +56,7 @@ export default function Home() {
             <h2 className="mb-4">Domus.land</h2>
             <p className="mb-5 text-muted">
               The website is created with Wix.com. It is used to inform about
-              the mobile houses.
+              the modular homes for refugees in Ukraine.
             </p>
             <Link to="/projects" className="btn btn-branding-outline mb-5">
               Learn More
@@ -96,7 +96,7 @@ export default function Home() {
             <h2 className="mb-4">Dictionary Project</h2>
             <p className="mb-5 text-muted">
               The Project is using Dictionary API and Pexels in order to get the
-              rword definitions and images. Please, search for the word.
+              word definitions and images. Please, search for the word.
             </p>
             <Link
               to="/projects"
