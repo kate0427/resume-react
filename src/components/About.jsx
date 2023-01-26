@@ -13,12 +13,16 @@ export default function About() {
               <h1 className="mb-3 mt-4">Kateryna Andriichuk</h1>
               <h2 className="mb-3">Frontend Developer, based in Ukraine</h2>
               <p className="mb-4">
-                I am an active person looking for a position in a software
-                development. I have some knowledge of JavaScript, React and
-                using APIs. I am also able to create websites using frameworks
-                such as Bootstrap. In addition to this, I have great skills in
-                management and project coordination gained from the previous
-                work experience and participation in the exchange programs.
+                I am a highly motivated specialist from Ukraine who is moving to
+                Canada because of the War. With an experience of working abroad
+                in Vietnam, Italy, and the USA, I have developed a strong set of
+                interpersonal communication skills. I am a creative
+                problem-solver with technical background who supported end users
+                creating their own websites in fast-paced, high-pressure
+                environments and is able to manage multiple projects
+                simultaneously. I am committed to continuing my professional
+                development and am always looking for new opportunities to learn
+                and grow.
               </p>
               <Link
                 to="/projects"
