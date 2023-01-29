@@ -94,7 +94,7 @@ img {
 }
 
 .projectsWord {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .btn-branding-outline {
@@ -107,6 +107,11 @@ img {
 
 .projectDescription {
   padding: 0 60px;
+  text-align: justify;
+}
+
+.projectHeader {
+  margin-top: 50px;
 }
 
 .contentContainer h1 {
@@ -130,6 +135,7 @@ img {
 .myPhoto {
   border-radius: 5px;
   width: 75%;
+  margin-top: 80px;
 }
 
 .contact-page {
@@ -210,6 +216,9 @@ footer .contact-box p {
     font-size: 15px;
   }
   .contact-page p {
+    margin: 30px;
+  }
+  .myPhoto {
     margin: 30px;
   }
 }

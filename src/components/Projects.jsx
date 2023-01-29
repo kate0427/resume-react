@@ -18,7 +18,11 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 title="Weather Project"
               >
-                <img src={weather} className="img-fluid" alt="weather App" />
+                <img
+                  src={weather}
+                  className="img-fluid d-none d-md-block"
+                  alt="weather App"
+                />
               </a>
             </div>
             <div className="col-md-6">
@@ -28,17 +32,19 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 title="Weather Project"
               >
-                <h3 className="mt-4">Weather Project</h3>
+                <h3 className="mt-3">Weather Project</h3>
               </a>
-              <p className="mt-3 text-muted text-center">
-                Built with React
+              <p className="text-muted text-justify">
+                The Project is built with React and is using Weather API in
+                order to get the real-time data. Feel free to check the weather
+                near you.{"  "}
                 <a
                   href="https://github.com/kate0427/weather-project-react"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="GitHub"
                 >
-                  <i className="fa-brands fa-github icon"></i>
+                  <i className="fa-brands fa-github icon d-inline"></i>
                 </a>
               </p>
             </div>
@@ -51,10 +57,10 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 title="Mobile Houses Projects"
               >
-                <h3 className="mt-5">Domus.land</h3>
+                <h3 className="projectHeader">Domus.land</h3>
               </a>
-              <p className="mt-3 text-muted text-center">
-                Built with{" "}
+              <p className=" text-muted text-justify">
+                The website is created with{" "}
                 <a
                   className="text-muted"
                   href="https://www.wix.com/"
@@ -63,6 +69,8 @@ export default function Projects() {
                 >
                   Wix.com
                 </a>
+                . It is used to inform about the modular homes for refugees in
+                Ukraine.
               </p>
             </div>
             <div className="col-md-6">
@@ -74,7 +82,7 @@ export default function Projects() {
               >
                 <img
                   src={domus}
-                  className="img-fluid"
+                  className="img-fluid d-none d-md-block"
                   alt="mobile houses app"
                 />
               </a>
@@ -90,7 +98,7 @@ export default function Projects() {
               >
                 <img
                   src={dictionary}
-                  className="img-fluid"
+                  className="img-fluid d-none d-md-block"
                   alt="dictionary App"
                 />
               </a>
@@ -102,17 +110,19 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 title="Dictionary Project"
               >
-                <h3 className="mt-4">Dictionary Project</h3>
+                <h3 className="projectHeader">Dictionary Project</h3>
               </a>
-              <p className="mt-3 text-muted text-center">
-                Built with React
+              <p className=" text-muted text-justify">
+                The Project is built with React and is using Dictionary API in
+                order to get the word definitions and images. Please, search for
+                the word. {"  "}
                 <a
                   href="https://github.com/kate0427/dictionary-project-react"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="GitHub"
                 >
-                  <i className="fa-brands fa-github icon"></i>
+                  <i className="fa-brands fa-github icon d-inline"></i>
                 </a>
               </p>
             </div>

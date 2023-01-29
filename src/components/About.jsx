@@ -2,6 +2,7 @@ import React from "react";
 import myPhoto from "../media/myPhoto.jpg";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import resume from "../media/resume.pdf";
 
 export default function About() {
   return (
@@ -24,21 +25,38 @@ export default function About() {
                 development and am always looking for new opportunities to learn
                 and grow.
               </p>
-              <Link
-                to="/projects"
-                className="btn btn-branding"
-                title="My Project"
-              >
-                View All Projects
-              </Link>
             </div>
           </div>
           <div className="col-lg-6 text-center">
             <img
               src={myPhoto}
-              alt="Kateryna"
-              className="img-fluid mt-4 myPhoto"
+              alt="Kateryna Andriichuk"
+              className="img-fluid myPhoto"
             />
+          </div>
+        </div>
+        <div className="row text-center">
+          <div className="col">
+            {" "}
+            <Link
+              to="/projects"
+              className="btn btn-branding mw-50 mt-3"
+              title="My Project"
+            >
+              Projects
+            </Link>
+          </div>
+          <div className="col">
+            {" "}
+            <a
+              href={resume}
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-branding mw-50 mt-3"
+              title="My resume"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </div>
